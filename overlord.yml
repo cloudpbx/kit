@@ -1,0 +1,13 @@
+# overlord.yml — repo metadata consumed by Overlord (https://github.com/clio/overlord).
+# Added as part of MAC-4183 to onboard this repo to the Overlord dashboard.
+# 'classification' and 'tier' are best-guess deductions from the repo contents; please
+# confirm them. Fields marked TODO could not be deduced and must be filled by the owners.
+# Docs: https://github.com/clio/overlord/blob/master/README.md#using-overlord-on-your-repo
+
+classification: library
+tier: 4                       # Application criticality tier [1-4] — please confirm
+owners:                       # TODO: GitHub username(s) of the repo owner(s)
+  # - your-github-username
+team:                         # TODO: GitHub team slug (github.com/orgs/<org>/teams/<team>)
+slack_name:                   # TODO: team Slack channel, e.g. "#your-team"
+backlog_url: https://github.com/cloudpbx/kit/issues
